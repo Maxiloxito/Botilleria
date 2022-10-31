@@ -14,10 +14,10 @@ class Product
 	
 
 	#Metodos
-
+	
+	scan_id() #Escanear codigo de barra (id)
 	change_supplier() #Cambiar distruibor o mantenerlo
 	alert_expiration() #Ingreso de alerta de caducidad de producto
-	scan_id() #Escanear codigo de barra (id)
 	category_entry() #Ingresar el producto a una categoria creada
 }
 
