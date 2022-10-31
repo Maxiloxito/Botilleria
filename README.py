@@ -6,6 +6,7 @@ class Product
 	#Atributos
 
 	id= #Codigo de barra del producto (marca, nombre del producto)
+	expiration_date= #Fecha de caducidad
 	supplier='' #Distribuidor 
 	price= #Precio del producto
 	content= #Contenido del producto (En gramos o en mililitros)
@@ -15,7 +16,9 @@ class Product
 	#Metodos
 
 	change_supplier() #Cambiar distruibor o mantenerlo
-	change_category() #aaa
+	alert_expiration() #Ingreso de alerta de caducidad de producto
+	scan_id() #Escanear codigo de barra (id)
+	category_entry() #Ingresar el producto a una categoria creada
 }
 
 class Inventory
@@ -41,7 +44,6 @@ class Inventory
 	add_producto() #nuevo producto ingresado
 	add_category() #Nueva categoria creada
 	profit() #Ganancia de las ventas
-	
-	
+		
 	
 }
